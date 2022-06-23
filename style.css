@@ -452,6 +452,6 @@
     /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
     font-family: "Inter"; 
     /* // адрес шрифта и тип  */
-    src: url("/fonts/Inter/Inter-Regular.ttf") format("truetype"); 
+    src: url("fonts/Inter/Inter-Regular.ttf") format("truetype"); 
 }
     
