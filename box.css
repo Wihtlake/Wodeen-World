@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Inter';
+    scroll-behavior: smooth;
+}
+body{
+    background: #282422;
+}
+.main_block_stite{
+    width: 100%;
+    background: url(img/image\ 3.png);
+    background-position: center;
+    margin: 0 auto;
+    
+}
+.auto_width{
+    max-width: 1609px;
+    margin: 0 auto;
+}
+.header_main_block{
+    padding-bottom: 33px;
+}
+.header_first_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+.text_header_ul{
+    list-style: none;
+    display: flex;
+}
+.text_header_link_active{
+    background: #000;
+    padding: 10px 25px;
+    border-radius: 58px;
+}
+
+.text_header_link{
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #F8FFCC;
+    margin-right: 5px;
+    padding: 10px 25px;
+    border-radius: 58px;
+    transition: background .2s ease-in-out;
+}
+.text_header_link:hover{
+    background: #000;
+}
+.header_first_login ul{
+    display: flex;
+}
+.header_first_login li{
+    list-style: none;
+    margin-left: 35px;
+}
+.header_first_login li a{
+    text-decoration: none;
+    color: #F8FFCC;
+    padding: 10px 29px;
+    background: #000;
+    border-radius: 58px;
+    font-size: 20px;
+    font-weight: 100;
+    transition: background .2s ease-in-out;
+}
+
+.header_first_login li a:hover{
+    background: rgba(255, 255, 255, 0.45);
+    color: #000;
+}
+
+
+
+
+.box_main_block{
+    background: #282422;
+}
+.box_main{
+    
+}
+.box_first_block{
+    padding: 33px 0;
+    border-bottom: #F8FFCC 1px solid;
+}
+.box_first_block h2{
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #F8FFCC;
+}
+.box_second_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;margin-top: 55px;
+}
+.heading_block{ 
+    display: flex;
+    justify-content: space-between;
+    max-width: 1168px;
+    max-height: 139px;
+    width: 100%;
+    background: #000;
+    padding:  0 30px;
+    border-radius: 15px;
+}
+.heading_block p{
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.order_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 139px;
+    background: #000;
+    border-radius: 15px;
+    transition: background .2s ease-in-out;
+    
+}
+.order_block a{
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.order_block:hover{
+    background: #F3CF74;
+
+}
+
+
+
+
+
+
+
+
+@font-face {
+    /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: "Inter"; 
+    /* // адрес шрифта и тип  */
+    src: url("fonts/Inter/Inter-Regular.ttf") format("truetype"); 
+}
+    

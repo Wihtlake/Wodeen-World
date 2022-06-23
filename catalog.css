@@ -186,7 +186,8 @@ body{
     max-height: 418px;
 }
 .icon_img_block img{
-
+    object-position: center;
+    object-fit: contain;
 }
 
 
